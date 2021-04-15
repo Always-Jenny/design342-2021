@@ -1,7 +1,7 @@
+
 img{
     width: 100%;
 }
-body {
-    background: url("images/bush.png") transparent,
-                url("transparent2.png") transparent;
-  }
+.bush{
+    background-color: transparent;
+}
