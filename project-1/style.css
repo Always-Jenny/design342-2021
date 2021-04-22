@@ -51,7 +51,7 @@ img{
     max-width: 100%;
 }
 .bush2, .bush3, .bush4, .bush5, .bush6, .bush7{
-    max-width: 1800px;
+    max-width: 2000px;
 }
 .bush2, .bush3, .bush4, .bush5, .bush6, .bush7{
     background-color: transparent;
@@ -71,26 +71,24 @@ img{
     margin-top: 4700px;
     margin-left: -200px;
 }
-/* add
 .bush5{
     position: absolute;
+    margin-top: 7000px;
+    margin-left: -200px;
 }
 .bush6{
     position: absolute;
+    margin-top: 10000px;
 }
+
+/* add
+
 .bush7{
     position: absolute;
 }
 
-<div class="bush4">
-    <img src="images/bush4.png" alt="drawing of a bigger green bush">
-</div>
-<div class="bush5">
-    <img src="images/bush5.png" alt="drawing of a smaller green bush">
-</div>
-<div class="bush6">
-    <img src="images/bush6.png" alt="drawing of a green bush">
-</div>
+
+
 <div class="bush7">
     <img src="images/bush7.png" alt="drawing of a bigger green bush">
 </div>
