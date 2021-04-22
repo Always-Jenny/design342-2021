@@ -48,25 +48,30 @@ table {
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
 }
-.bush, .bush2, .bush3, .bush4, .bush5, .bush6, .bush7{
+.bush2, .bush3, .bush4, .bush5, .bush6, .bush7{
+    max-width: 1800px;
+}
+.bush2, .bush3, .bush4, .bush5, .bush6, .bush7{
     background-color: transparent;
 }
 
-.bush{
-    position: absolute;
-    margin-top: -100px;
-}
 .bush2{
     position: absolute;
+    margin-top: 1100px;
 }
 .bush3{
     position: absolute;
+    margin-top: 2900px;
+    margin-left: -500px;
 }
 .bush4{
     position: absolute;
+    margin-top: 4700px;
+    margin-left: -200px;
 }
+/* add
 .bush5{
     position: absolute;
 }
@@ -76,6 +81,20 @@ img{
 .bush7{
     position: absolute;
 }
+
+<div class="bush4">
+    <img src="images/bush4.png" alt="drawing of a bigger green bush">
+</div>
+<div class="bush5">
+    <img src="images/bush5.png" alt="drawing of a smaller green bush">
+</div>
+<div class="bush6">
+    <img src="images/bush6.png" alt="drawing of a green bush">
+</div>
+<div class="bush7">
+    <img src="images/bush7.png" alt="drawing of a bigger green bush">
+</div>
+*/
 
 .main-iamge{
     position: relative;
