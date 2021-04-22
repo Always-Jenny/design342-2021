@@ -50,19 +50,22 @@ table {
 img{
     max-width: 100%;
 }
-.bush2, .bush6 {
-    /* use in case 
-    max-width: 1400px; */
-    max-width: 2000px;
+.bush2 {
+    max-width: 1600px;
 }
 .bush3{
-    max-width: 1000px;
+    max-width: 1400px;
 }
 .bush4 {
     max-width: 1800px;
 }
 .bush5{
     max-width: 1700px;
+}
+.bush6 {
+    /* use in case 
+    max-width: 1400px; */
+    max-width: 2000px;
 }
 .bush7 {
     max-width: 1500px;
@@ -73,12 +76,14 @@ img{
 
 .bush2{
     position: absolute;
-    margin-top: 400px;
+    margin-top: 1200px;
 }
 .bush3{
     position: absolute;
-    margin-top: 1170px;
-    margin-right: 200px;
+    /* maybe add
+    margin-top: 1170px; */
+    margin-top: 3000px;
+    margin-left: -200px;
 }
 .bush4{
     position: absolute;
