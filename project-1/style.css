@@ -78,18 +78,16 @@ img{
     position: absolute;
     margin-top: 1200px;
 } 
-.bush2 .inner{
+.bush2 .inner2{
     position: absolute;
     margin-top: -950px;
     margin-right: 50px;
+    padding: 50px;
     display: none;
 }
-
-.bush2:hover .inner {
+.bush2:hover .inner2 {
     display: block;
-  }
-
-/* done hover */
+}
 
 .bush3{
     position: absolute;
@@ -98,6 +96,17 @@ img{
     margin-top: 3000px;
     margin-left: -200px;
 }
+.bush3 .inner3{
+    position: absolute;
+    margin-top: -860px;
+    margin-left: -50px;
+    padding: 50px;
+    display: none;
+}
+.bush3:hover .inner3 {
+    display: block;
+}
+
 .bush4{
     position: absolute;
     margin-top: 4700px;
@@ -118,6 +127,7 @@ img{
     margin-top: 12200px;
     margin-left: -600px;
 }
+/* done hover */
 
 .main-iamge{
     position: relative;
