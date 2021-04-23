@@ -73,11 +73,24 @@ img{
 .bush2, .bush3, .bush4, .bush5, .bush6, .bush7{
     background-color: transparent;
 }
-
+/* hover feature */
 .bush2{
     position: absolute;
     margin-top: 1200px;
+} 
+.bush2 .inner{
+    position: absolute;
+    margin-top: -950px;
+    margin-right: 50px;
+    display: none;
 }
+
+.bush2:hover .inner {
+    display: block;
+  }
+
+/* done hover */
+
 .bush3{
     position: absolute;
     /* maybe add
