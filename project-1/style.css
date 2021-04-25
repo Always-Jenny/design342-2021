@@ -112,11 +112,31 @@ img{
     margin-top: 4700px;
     margin-left: -200px;
 }
+.bush4 .inner4{
+    position: absolute;
+    margin-top: -1000px;
+    margin-left: -100px;
+    display: none;
+}
+.bush4:hover .inner4 {
+    display: block;
+}
+
 .bush5{
     position: absolute;
     margin-top: 7000px;
     margin-left: -200px;
 }
+.bush5 .inner5{
+    position: absolute;
+    margin-top: -780px;
+    margin-left: 180px;
+    display: none;
+}
+.bush5:hover .inner5 {
+    display: block;
+}
+
 .bush6{
     position: absolute;
     margin-top: 9800px;
