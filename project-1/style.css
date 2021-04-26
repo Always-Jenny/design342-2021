@@ -1,3 +1,7 @@
+html {
+    cursor: url(images/bug-image.png), auto;
+  }
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -27,9 +31,6 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
-body {
-	line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -172,7 +173,4 @@ img{
     position: relative;
     top: 0;
     left: 0;
-}
-body {
-  cursor: url(images/bug-flying-32.gif), auto;
 }
