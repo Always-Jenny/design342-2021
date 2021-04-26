@@ -1,7 +1,16 @@
 html {
-    cursor: url(images/bug-image.png), auto;
+    cursor: url(images/bug-image-why.jpg), auto;
   }
 
+.main-image{
+    top: 0;
+    left: 0;
+    width: 1440px;
+    margin: auto;
+}
+body{
+    background-color: cadetblue;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -169,8 +178,4 @@ img{
 }
 /* done hover */
 
-.main-iamge{
-    position: relative;
-    top: 0;
-    left: 0;
-}
+
