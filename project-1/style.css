@@ -142,10 +142,29 @@ img{
     margin-top: 9800px;
     margin-left: -200px;
 }
+.bush6 .inner6{
+    position: absolute;
+    margin-top: -1200px;
+    margin-left: 30px;
+    display: none;
+}
+.bush6:hover .inner6 {
+    display: block;
+}
+
 .bush7{
     position: absolute;
     margin-top: 12200px;
     margin-left: -600px;
+}
+.bush7 .inner7{
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 30px;
+    display: none;
+}
+.bush7:hover .inner7 {
+    display: block;
 }
 /* done hover */
 
