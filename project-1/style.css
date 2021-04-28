@@ -90,7 +90,7 @@ img{
 } 
 .bush2 .inner2{
     position: absolute;
-    margin-top: -1000px;
+    margin-top: -900px;
     margin-right: 50px;
     padding: 50px;
     display: none;
@@ -109,7 +109,7 @@ img{
 }
 .bush3 .inner3{
     position: absolute;
-    margin-top: -730px;
+    margin-top: -550px;
     margin-left: -50px;
     padding: 50px;
     display: none;
@@ -126,7 +126,7 @@ img{
 }
 .bush4 .inner4{
     position: absolute;
-    margin-top: -880px;
+    margin-top: -670px;
     margin-left: 90px;
     display: none;
 }
@@ -142,8 +142,8 @@ img{
 }
 .bush5 .inner5{
     position: absolute;
-    margin-top: -580px;
-    margin-left: 110px;
+    margin-top: -400px;
+    margin-left: 70px;
     display: none;
 }
 .bush5:hover .inner5 {
@@ -158,7 +158,7 @@ img{
 }
 .bush6 .inner6{
     position: absolute;
-    margin-top: -800px;
+    margin-top: -600px;
     margin-left: 40px;
     display: none;
 }
@@ -174,7 +174,7 @@ img{
 }
 .bush7 .inner7{
     position: absolute;
-    margin-top: -700px;
+    margin-top: -500px;
     margin-left: 30px;
     display: none;
 }
