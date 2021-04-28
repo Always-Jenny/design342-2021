@@ -1,5 +1,5 @@
 html {
-    cursor: url(images/bug-image-why.jpg), auto;
+    cursor: url(images/ar-bug-flying-32.gif), auto;
   }
 
 .main-image{
@@ -86,11 +86,11 @@ img{
 /* hover feature */
 .bush2{
     position: absolute;
-    margin-top: 1200px;
+    margin-top: 800px;
 } 
 .bush2 .inner2{
     position: absolute;
-    margin-top: -950px;
+    margin-top: -1000px;
     margin-right: 50px;
     padding: 50px;
     display: none;
@@ -103,12 +103,13 @@ img{
     position: absolute;
     /* maybe add
     margin-top: 1170px; */
-    margin-top: 3000px;
-    margin-left: -200px;
+    margin-top: 2300px;
+    margin-left: 100px;
+    max-width: 60%;
 }
 .bush3 .inner3{
     position: absolute;
-    margin-top: -860px;
+    margin-top: -730px;
     margin-left: -50px;
     padding: 50px;
     display: none;
@@ -119,13 +120,14 @@ img{
 
 .bush4{
     position: absolute;
-    margin-top: 4700px;
+    margin-top: 3500px;
     margin-left: -200px;
+    max-width: 80%;
 }
 .bush4 .inner4{
     position: absolute;
-    margin-top: -1000px;
-    margin-left: -100px;
+    margin-top: -880px;
+    margin-left: 90px;
     display: none;
 }
 .bush4:hover .inner4 {
@@ -134,13 +136,14 @@ img{
 
 .bush5{
     position: absolute;
-    margin-top: 7000px;
-    margin-left: -200px;
+    margin-top: 5300px;
+    margin-left: -50px;
+    max-width: 60%;
 }
 .bush5 .inner5{
     position: absolute;
-    margin-top: -780px;
-    margin-left: 180px;
+    margin-top: -580px;
+    margin-left: 110px;
     display: none;
 }
 .bush5:hover .inner5 {
@@ -149,13 +152,14 @@ img{
 
 .bush6{
     position: absolute;
-    margin-top: 9800px;
-    margin-left: -200px;
+    margin-top: 7300px;
+    margin-left: -100px;
+    max-width: 70%;
 }
 .bush6 .inner6{
     position: absolute;
-    margin-top: -1200px;
-    margin-left: 30px;
+    margin-top: -800px;
+    margin-left: 40px;
     display: none;
 }
 .bush6:hover .inner6 {
@@ -164,8 +168,9 @@ img{
 
 .bush7{
     position: absolute;
-    margin-top: 12200px;
-    margin-left: -600px;
+    margin-top: 9200px;
+    margin-left: -400px;
+    max-width: 70%;
 }
 .bush7 .inner7{
     position: absolute;
