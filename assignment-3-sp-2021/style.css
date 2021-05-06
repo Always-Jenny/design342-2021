@@ -33,7 +33,7 @@
 
 .panda {
     animation-name: spinning-circle;
-    animation-duration: 5s;
+    animation-duration: 8s;
     animation-iteration-count:infinite;
 }
 
