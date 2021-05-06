@@ -17,44 +17,37 @@
 }
 
 .panda {
-    animation: panda 5s linear infinite;
+    animation: panda 8s linear infinite;
 }
-  
+ 
 /*dispearing*/
 @keyframes foods {
     0%        {opacity: 0}
     15%, 70%  {opacity: 1}
     85%, 100% {opacity: 0}
 }
-
   
 .foods {
-    animation: foods 5s ease infinite;
+    animation: foods 3s ease infinite;
 } 
 
-@keyframes ufo-big-lights {
-    0%        {fill: #F1B6FF}
-    20%       {fill: #A73DC1}
-    40%, 100% {fill: #560B68}
-}
-  
-.ufo-big-lights-light {
-    animation: ufo-big-lights 2.5s ease infinite;
+.panda {
+    animation-name: spinning-circle;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
 }
 
-.ufo-big-lights--2 {animation-delay: .2s}
-.ufo-big-lights--3 {animation-delay: .4s}
-.ufo-big-lights--4 {animation-delay: .6s}
-.ufo-big-lights--5 {animation-delay: .8s}
-
-@keyframes building-flames {
-    0%   {transform: scale(1, 1)}
-    50%  {transform: scale(1, 1.1)}
-    100% {transform: scale(1, 1)}
-  }
-  
-.building-flames path {
-    fill: #d84437;
-    animation       : building-flames .20s ease infinite;
-    transform-origin: center top;
-  }
+@-webkit-keyframes spinning-circle{
+    0%{
+        -webkit-transform: rotate(0deg)
+        transform: rotate (0deg);
+        -webkid-transform-origin: 125% 125%;
+        transform-origin:125% 125%;
+    }
+    100% {
+        -webkit-transform: rotate(35deg);
+        transform: rotate(35deg);
+        -webkit-transform-origin: 125% 125%;
+        transform-origin: 125% 125%;
+      }
+}
