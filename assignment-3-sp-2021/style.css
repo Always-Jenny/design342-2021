@@ -1,0 +1,26 @@
+*{
+    background-color: blanchedalmond;
+}
+.svg{
+    width: 100%;
+    height: auto;
+}
+
+@keyframes star-big {
+    0% {transform: translateY(0)}
+    25% {transform: translateY(-25px)}
+    75% {transform: translateY(25px)}
+    100% {transform: translateY(0)}
+}
+.star-big{
+    animation: star-big 5s linear infinite;
+}
+
+@keyframes lights {
+    0% {fill: #FFFFFF}
+    20% {fill: #A73DC1}
+    40%, 100% {fill: #560B68}
+}
+.lights {
+    animation: lights 2.5s ease infinite;
+}
