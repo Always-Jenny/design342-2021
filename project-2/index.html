@@ -11,6 +11,7 @@
     <title>Obsessed or Impressed</title>
 </head>
 <body>
+
 <div class="icon">
     <img src="images/oi-logo.png" alt="image of a logo: oi">
 </div>
@@ -53,20 +54,72 @@
         <img src="images/home-page-r2.png" width="100%" alt="image with title saying: obsessed  or impressed">
     </div>
 
+    <img src="images/valentina-name.png" width="30%" alt="photo of a fuchia colored ty beanie baby">
+    <img src="images/clubbyiii-name.png" width="30%" alt="clubby beanie baby">
+    <img src="images/rwb-name.png" width="30%" alt="red white and  blue stared beanie baby">
+    <img src="images/rat-name.png" width="30%" alt="rat beanie baby">
+
+
     <div class="valentina">
-        <h1>Valentina</h1>
         <p>Valentina is a fuchsia colored bear with black button eyes and a larger black button nose. She has a white heart embroidered on her chest and a fuchsia colored ribbon tied around her neck.</p>
         <p><a class="read-more" href="">Read More</a></p>
     </div>
 
+    <!---does this work?
+    <div id="mydiv">
+    <div class="move-bear-v">
+        <img src="images/val-alone.png" width="100%" alt="valentina bear" style="float:left">
+    </div>
+    </div>
+    <script>
+        dragElement(document.getElementById("mydiv"));
+        
+        function dragElement(elmnt) {
+          var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+          if (document.getElementById(elmnt.id + "move-bear-v")) {
+            document.getElementById(elmnt.id + "move-bear-v").onmousedown = dragMouseDown;
+          } else {
+            elmnt.onmousedown = dragMouseDown;
+          }
+        
+          function dragMouseDown(e) {
+            e = e || window.event;
+            e.preventDefault();
+            // get the mouse cursor position at startup:
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+            document.onmouseup = closeDragElement;
+            // call a function whenever the cursor moves:
+            document.onmousemove = elementDrag;
+          }
+        
+          function elementDrag(e) {
+            e = e || window.event;
+            e.preventDefault();
+            // calculate the new cursor position:
+            pos1 = pos3 - e.clientX;
+            pos2 = pos4 - e.clientY;
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+            // set the element's new position:
+            elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+            elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+          }
+        
+          function closeDragElement() {
+            /* stop moving when mouse button is released:*/
+            document.onmouseup = null;
+            document.onmousemove = null;
+          }
+        }
+        </script>-->
+
     <div class="clubby">
-        <h1>Clubby III</h1>
         <p>Clubby III is made from a brown material flecked with blue. He has black button eyes and a larger black button nose. He wears a blue ribbon tied around his neck and on his chest is a Ty Beanie Baby Official Club badge.</p>
         <p><a class="read-more" href="">Read More</a></p>
     </div>
 
     <div class="rwb">
-        <h1>Red White & Blue</h1>
         <p>Red, White and Blue is a star patterned design with sparkles all around the bear. Inside the tag says; A symbol of the U.S.A Americans proudly display, Let’s all wave the Red, White and Blue, ‘cause, America, we love you!</p>
         <p><a class="read-more" href="">Read More</a></p>
     </div>
@@ -87,6 +140,5 @@
         <a href="cost.html"><h5>Cost</h5></a>
         <a href="collectors.html"><h5>Collectors</h5></a>
     </div>
-
 </body>
 </html>
