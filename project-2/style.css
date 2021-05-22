@@ -13,6 +13,10 @@ h1 {
     letter-spacing: 3px;
 }
 
+p{
+ display: inline;
+}
+
 /*icon*/
 .icon {
     padding: 10px;
@@ -24,7 +28,10 @@ h1 {
 }
 /*image*/
 img{
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 /*shake image*/
@@ -47,7 +54,3 @@ img:hover {
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
 
-  .move-bear-v{
-      position: absolute;
-      margin: 400px;
-  }

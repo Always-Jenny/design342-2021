@@ -21,8 +21,7 @@
     overflow: hidden;
     background-color: #fff0eb;
     /*(131, 131, 131)*/
-}
-        
+}   
     .top-bar a {
     float: right;
     color: #ffa283;
@@ -30,14 +29,39 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-}
-        
+}  
     .top-bar a:hover {
     background-color: #ddd;
     color: rgb(53, 53, 53);
-}
-        
+}  
     .top-bar a.active {
+    background-color: #04aa6db0;
+    color: white;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #fff0eb;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+    float: right;
+    color: #ffa283;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: rgb(53, 53, 53);
+}
+
+.navbar a.active {
     background-color: #04aa6db0;
     color: white;
 }
@@ -54,16 +78,25 @@
         <img src="images/home-page-r2.png" width="100%" alt="image with title saying: obsessed  or impressed">
     </div>
 
-    <img src="images/valentina-name.png" width="30%" alt="photo of a fuchia colored ty beanie baby">
-    <img src="images/clubbyiii-name.png" width="30%" alt="clubby beanie baby">
-    <img src="images/rwb-name.png" width="30%" alt="red white and  blue stared beanie baby">
-    <img src="images/rat-name.png" width="30%" alt="rat beanie baby">
+    <img src="images/valentina-name.png" width="40%" alt="photo of a fuchia colored ty beanie baby">
+    <p>Valentina is a fuchsia colored bear with black button eyes and a larger black button nose. She has a white heart embroidered on her chest and a fuchsia colored ribbon tied around her neck.</p>
+    <p><a class="read-more" href="">Read More</a></p>
 
+    <img src="images/clubbyiii-name.png" width="40%" alt="clubby beanie baby">
+    <p>Clubby III is made from a brown material flecked with blue. He has black button eyes and a larger black button nose. He wears a blue ribbon tied around his neck and on his chest is a Ty Beanie Baby Official Club badge.</p>
+    <p><a class="read-more" href="">Read More</a></p>
 
-    <div class="valentina">
-        <p>Valentina is a fuchsia colored bear with black button eyes and a larger black button nose. She has a white heart embroidered on her chest and a fuchsia colored ribbon tied around her neck.</p>
-        <p><a class="read-more" href="">Read More</a></p>
-    </div>
+    <img src="images/rwb-name.png" width="40%" alt="red white and  blue stared beanie baby" >
+    <p>Red, White and Blue is a star patterned design with sparkles all around the bear. Inside the tag says; A symbol of the U.S.A Americans proudly display, Let’s all wave the Red, White and Blue, ‘cause, America, we love you!</p>
+    <p><a class="read-more" href="">Read More</a></p>
+    <img src="images/rat-name.png" width="40%" alt="rat beanie baby">
+    <p>A very colorful purple rat. Inside the tag says that rats are;
+        Ambitious yet honest,
+        Prone to spend freely,
+        Seldom makes lasting friendships,
+        Marry a dragon or monkey,
+        Avoid horses!</p>
+    <p><a class="read-more" href="">Read More</a></p>
 
     <!---does this work?
     <div id="mydiv">
@@ -114,31 +147,11 @@
         }
         </script>-->
 
-    <div class="clubby">
-        <p>Clubby III is made from a brown material flecked with blue. He has black button eyes and a larger black button nose. He wears a blue ribbon tied around his neck and on his chest is a Ty Beanie Baby Official Club badge.</p>
-        <p><a class="read-more" href="">Read More</a></p>
-    </div>
-
-    <div class="rwb">
-        <p>Red, White and Blue is a star patterned design with sparkles all around the bear. Inside the tag says; A symbol of the U.S.A Americans proudly display, Let’s all wave the Red, White and Blue, ‘cause, America, we love you!</p>
-        <p><a class="read-more" href="">Read More</a></p>
-    </div>
-
-    <div class="rat">
-        <h1>Rat</h1>
-        <p>A very colorful purple rat. Inside the tag says that rats are;
-            Ambitious yet honest,
-            Prone to spend freely,
-            Seldom makes lasting friendships,
-            Marry a dragon or monkey,
-            Avoid horses!</p>
-        <p><a class="read-more" href="">Read More</a></p>
-    </div>
-
-    <div class="bottom-bar">
-        <a href="history.html"><h5>History</h5></a>
-        <a href="cost.html"><h5>Cost</h5></a>
+    <div class="navbar">
         <a href="collectors.html"><h5>Collectors</h5></a>
+        <a href="cost.html"><h5>Cost</h5></a>
+        <a href="history.html"><h5>History</h5></a>
+        <a class="active" a href="home"><h5>Home</h5></a>
     </div>
 </body>
 </html>
