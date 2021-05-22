@@ -1,7 +1,30 @@
 * {box-sizing: border-box;
 }
 
-/*images */
+/*images*/
 body{
     background-color: #fff0eb;
+}
+
+/*fonts*/
+h1 {
+    font-family: montserrat;
+    font-weight: bolder;
+    font-size: 87px;
+}
+h2{
+    font-family: montserrat;
+    font-weight: bolder;
+    font-size: 37px;
+}
+h3{
+    font-family: allura;
+    font-size: 101px;
+    color: white;
+}
+h4{
+    font-family: allura;
+    font-size: 101px;
+    color: black; 
+    letter-spacing: 3px;
 }
