@@ -4,27 +4,22 @@
 /*images*/
 body{
     background-color: #fff0eb;
+    
 }
 
 /*fonts*/
 h1 {
-    font-family: montserrat;
-    font-weight: bolder;
-    font-size: 87px;
-}
-h2{
-    font-family: montserrat;
-    font-weight: bolder;
-    font-size: 37px;
-}
-h3{
-    font-family: allura;
-    font-size: 101px;
-    color: white;
-}
-h4{
     font-family: allura;
     font-size: 101px;
     color: black; 
     letter-spacing: 3px;
+}
+.title{
+position: relative;
+margin-top: 5px;
+}
+.title-image {
+    position: relative;
+    top: 0;
+    bottom: 0;
 }
