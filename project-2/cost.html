@@ -10,17 +10,70 @@
 </head>
 <body>
     <div class="icon">
+        <a href="index.html">
         <img src="images/oi-logo.png">
+    </a>
     </div>
 
+    <style>
+        .top-bar {
+        overflow: hidden;
+        background-color: #fff0eb;
+        /*(131, 131, 131)*/
+    }   
+        .top-bar a {
+        float: right;
+        color: #ffa283;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }  
+        .top-bar a:hover {
+        background-color: #ddd;
+        color: rgb(53, 53, 53);
+    }  
+        .top-bar a.active {
+        background-color: #04aa6db0;
+        color: white;
+    }
+    
+    
+    .navbar {
+      overflow: hidden;
+      background-color: #fff0eb;
+      bottom: 0;
+      width: 100%;
+    }
+    
+    .navbar a {
+        float: right;
+        color: #ffa283;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .navbar a:hover {
+        background-color: #ddd;
+        color: rgb(53, 53, 53);
+    }
+    
+    .navbar a.active {
+        background-color: #04aa6db0;
+        color: white;
+    }
+    </style>
+
     <div class="top-bar">
-        <a href="index.html"><h5>Home</h5></a>
-        <a href="history.html"><h5>History</h5></a>
         <a href="collectors.html"><h5>Collectors</h5></a>
+        <a href="history.html"><h5>History</h5></a>
+        <a href="index.html"><h5>Home</h5></a>
+        <a class="active" a href=""><h5>Cost</h5></a>
     </div>
     
     <div class="title">
-    <img src="images/cost-page.png">
     </div>
 
     <div class="bears-cost">
@@ -34,10 +87,11 @@
         <p>Some range from <a href="">$4 - $20</p></a>
     </div>
 
-    <div class="bottom-bar">
-        <a href="index.html"><h5>Home</h5></a>
-        <a href="history.html"><h5>History</h5></a>
+    <div class="navbar">
         <a href="collectors.html"><h5>Collectors</h5></a>
+        <a href="history.html"><h5>History</h5></a>
+        <a href="index.html"><h5>Home</h5></a>
+        <a class="active" a href=""><h5>Cost</h5></a>
     </div>
 
 </body>
