@@ -7,8 +7,9 @@ body{
 
 /*fonts*/
 h1 {
-    font-family: allura;
-    font-size: 101px;
+    font-family: montserrat;
+    font-size: 50px;
+    font-weight: bolder;
     color: black; 
     letter-spacing: 3px;
 }
@@ -34,6 +35,8 @@ img{
     
 }
 
+
+
 /*shake image*/
 img:hover {
     animation: shake 0.9s;
@@ -53,4 +56,5 @@ img:hover {
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
+
 
