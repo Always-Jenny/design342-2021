@@ -13,6 +13,9 @@ h1 {
     color: black; 
     letter-spacing: 3px;
 }
+.read-more{
+    font-family: allura;
+}
 
 p{
  display: inline;
