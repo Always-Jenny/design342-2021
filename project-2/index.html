@@ -80,16 +80,26 @@
 
 <div class="bear-main">
     <div class="kidm">
-        <img src="images/valentina-name.png"  alt="photo of a fuchia colored ty beanie baby">
+        <div>
+        <img src="images/valentina-name.png" alt="photo of a fuchia colored ty beanie baby">
+        </div>
+        <div>
         <p>Valentina is a fuchsia colored bear with black button eyes and a larger black button nose. She has a white heart embroidered on her chest and a fuchsia colored ribbon tied around her neck.</p>
         <p><a class="read-more" href="https://beaniepedia.com/beanies/beanie-babies/valentina-the-bear/">Read More</a></p>
+        </div>
     </div>
 
-    <div class="kidm">
+    <div class="kidm clubby-here">
+        <div id="draggable-teddy">
+            <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+            <img id="teddy-img" src="images/clubby-lone.png">
+            <p class="clubby-text">DRAG ME</p>
+          </div>
+            <script src="draggable.js"></script>
         <img src="images/clubbyiii-name.png"  alt="clubby beanie baby">
         <p>Clubby III is made from a brown material flecked with blue. He has black button eyes and a larger black button nose. He wears a blue ribbon tied around his neck and on his chest is a Ty Beanie Baby Official Club badge.</p>
         <p><a class="read-more" href="https://beaniepedia.com/beanies/beanie-babies/clubby-iii-the-bear-2/">Read More</a></p>
-    </div>  
+    </div> 
 
     <div class="kidm">
         <img src="images/rwb-name.png"  alt="red white and  blue stared beanie baby" >
@@ -108,60 +118,21 @@
         <p><a class="read-more" href="https://beaniepedia.com/beanies/beanie-babies/zodiac-rat/">Read More</a></p>
     </div>
 </div>
-    <!---does this work?
-    <div id="mydiv">
-    <div class="move-bear-v">
-        <img src="images/val-alone.png" width="100%" alt="valentina bear" style="float:left">
-    </div>
-    </div>
-    <script>
-        dragElement(document.getElementById("mydiv"));
-        
-        function dragElement(elmnt) {
-          var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-          if (document.getElementById(elmnt.id + "move-bear-v")) {
-            document.getElementById(elmnt.id + "move-bear-v").onmousedown = dragMouseDown;
-          } else {
-            elmnt.onmousedown = dragMouseDown;
-          }
-        
-          function dragMouseDown(e) {
-            e = e || window.event;
-            e.preventDefault();
-            // get the mouse cursor position at startup:
-            pos3 = e.clientX;
-            pos4 = e.clientY;
-            document.onmouseup = closeDragElement;
-            // call a function whenever the cursor moves:
-            document.onmousemove = elementDrag;
-          }
-        
-          function elementDrag(e) {
-            e = e || window.event;
-            e.preventDefault();
-            // calculate the new cursor position:
-            pos1 = pos3 - e.clientX;
-            pos2 = pos4 - e.clientY;
-            pos3 = e.clientX;
-            pos4 = e.clientY;
-            // set the element's new position:
-            elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-            elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-          }
-        
-          function closeDragElement() {
-            /* stop moving when mouse button is released:*/
-            document.onmouseup = null;
-            document.onmousemove = null;
-          }
-        }
-        </script>-->
-
+    
     <div class="navbar">
         <a href="collectors.html"><h5>Collectors</h5></a>
         <a href="cost.html"><h5>Cost</h5></a>
         <a href="history.html"><h5>History</h5></a>
         <a class="active" a href="home"><h5>Home</h5></a>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $("#draggable-teddy").click(function(){
+            $("#draggable-teddy p").html("") 
+
+        })
+
+
+    </script>
 </body>
 </html>

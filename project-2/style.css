@@ -3,6 +3,8 @@
 
 body{
     background-color: #fff0eb;
+    font-family: montserrat;  
+    line-height: 1.4;
 }
 
 /*fonts*/
@@ -18,10 +20,6 @@ h1 {
     font-size: 20px;
 }
 
-p{
-    font-family: montserrat;  
-    line-height: 1.4;
-}
 p{
  display: inline;
 }
@@ -40,13 +38,28 @@ h5{
 .top-bar{
     padding-bottom: 30px;
 }
+
 /*image*/
 img{
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
+
+/*index*/
+.kidm{
+display: flex;
+}
+.kidm div{
+    flex: 1;
+}
+.kidm div:nth-child(2){
+    margin-top: 80px;
+}
+.clubby-here{
+    position: relative;
+}
+
 /*cost page*/
 .flex-cost{
     display: flex;
@@ -97,4 +110,19 @@ img:hover {
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
 
+/*bear moves */ 
+#draggable-teddy {
+    position: absolute;
+    z-index: 9;
+    width: 200px;
+    top:100px;
+    right: 300px;
+    text-align: center;
+  }
+  #draggable-teddy img {width: 100%;}
+  
+  #teddy-img {
+    cursor: move;
+    z-index: 10;
+  }
 
