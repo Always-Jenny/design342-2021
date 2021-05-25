@@ -57,11 +57,25 @@ img{
 .kid {
     padding: 10px;
     margin: 60px;
-    height: 900px;
+    height: 300px;
     width: 300px;
     text-align: center;
 }
 
+/*collector page*/
+.bear-collect{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 5vw;
+}
+.bearc {
+    padding: 10px;
+    margin: 60px;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
 
 /*shake image*/
 img:hover {
