@@ -60,6 +60,11 @@ display: flex;
     position: relative;
 }
 
+/*history page*/
+.kidh{
+    display: flex;
+}
+
 /*cost page*/
 .flex-cost{
     display: flex;
@@ -114,7 +119,7 @@ img:hover {
 #draggable-teddy {
     position: absolute;
     z-index: 9;
-    width: 200px;
+    width: 500px;
     top:100px;
     right: 300px;
     text-align: center;
