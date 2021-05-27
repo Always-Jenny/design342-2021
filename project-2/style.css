@@ -5,6 +5,7 @@ body{
     background-color: #fff0eb;
     font-family: "Montserrat", sans-serif;  
     line-height: 1.4;
+    font-size: 20px;
 }
 
 /*fonts*/
@@ -14,14 +15,15 @@ h1 {
     font-weight: bolder;
     color: black; 
     letter-spacing: 3px;
+    margin: 20px;
 }
 .read-more{
     font-family: "Allura";
-    font-size: 20px;
+    font-size: 30px;
 }
 
 p{
- display: inline;
+    display: inline;
 }
 
 h5{
@@ -48,7 +50,7 @@ img{
 
 /*index*/
 .kidm{
-display: flex;
+    display: flex;
 }
 .kidm div{
     flex: 1;
@@ -73,13 +75,13 @@ display: flex;
 
 /*history page*/
 .kidh{
-display: flex;
+    display: flex;
 }
 .kidh div{
-flex: 1;
+    flex: 1;
 }
 .kidh div:nth-child(2){
-margin-top: 80px;
+    margin-top: 80px;
 }
 .kidh{
     margin: 20px;
