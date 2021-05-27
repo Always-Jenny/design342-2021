@@ -11,7 +11,7 @@ body{
 /*fonts*/
 h1 {
     font-family: "Montserrat";
-    font-size: 50px;
+    font-size: 70px;
     font-weight: bolder;
     color: black; 
     letter-spacing: 3px;
@@ -87,7 +87,13 @@ img{
     margin: 20px;
 }
 .kidh{
-    font-size: 30px; 
+    font-size: 20px; 
+}
+.history{
+    margin: 30px;
+}
+.history-title{
+    margin-left: 10px;
 }
 
 /*cost page*/
