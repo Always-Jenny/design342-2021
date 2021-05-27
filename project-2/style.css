@@ -134,6 +134,9 @@ img{
 .info{
     margin: 30px;
 }
+.info-small{
+    margin: 10px; 
+}
 
 /*shake image*/
 img:hover {
