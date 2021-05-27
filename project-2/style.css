@@ -131,6 +131,9 @@ img{
     width: 300px;
     text-align: center;
 }
+.info{
+    margin: 30px;
+}
 
 /*shake image*/
 img:hover {
