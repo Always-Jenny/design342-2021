@@ -62,7 +62,19 @@ display: flex;
 
 /*history page*/
 .kidh{
-    display: flex;
+display: flex;
+}
+.kidh div{
+flex: 1;
+}
+.kidh div:nth-child(2){
+margin-top: 80px;
+}
+.kidh{
+    margin: 20px;
+}
+.kidh{
+    font-size: 30px; 
 }
 
 /*cost page*/
