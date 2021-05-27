@@ -102,6 +102,9 @@ margin-top: 80px;
     width: 300px;
     text-align: center;
 }
+.kid p{
+    white-space: nowrap;
+}
 
 /*collector page*/
 .bear-collect{
