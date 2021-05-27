@@ -3,20 +3,20 @@
 
 body{
     background-color: #fff0eb;
-    font-family: montserrat;  
+    font-family: "Montserrat", sans-serif;  
     line-height: 1.4;
 }
 
 /*fonts*/
 h1 {
-    font-family: montserrat;
+    font-family: "Montserrat";
     font-size: 50px;
     font-weight: bolder;
     color: black; 
     letter-spacing: 3px;
 }
 .read-more{
-    font-family: allura;
+    font-family: "Allura";
     font-size: 20px;
 }
 
@@ -25,7 +25,7 @@ p{
 }
 
 h5{
-    font-family: montserrat;  
+    font-family: "Montserrat";  
     font-size: 20px;
 }
 
@@ -58,6 +58,17 @@ display: flex;
 }
 .clubby-here{
     position: relative;
+}
+.bear-main{
+    width: 80%;
+    margin: auto;
+}
+.bear-main .kidm .left{
+    flex: 40%;
+}
+.bear-main .kidm .right{
+    flex: 60%;
+    margin-left: 60px;
 }
 
 /*history page*/
